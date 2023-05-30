@@ -1,6 +1,6 @@
 {
   "name": "@iyansr/angka-terbilang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A fast JavaScript/TypeScript library to convert numbers into Indonesian words.",
   "main": "dist/index.js",
   "types": "index.d.ts",
@@ -27,5 +27,11 @@
     "esbuild": "^0.17.19",
     "tsc": "^2.0.4",
     "typescript": "^5.0.4"
-  }
+  },
+  "files": [
+    "dist",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ]
 }
