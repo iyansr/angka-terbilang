@@ -1,7 +1,7 @@
 {
   "name": "@iyansr/angka-terbilang",
-  "version": "1.0.1",
-  "description": "A JavaScript/TypeScript library to convert numbers into Indonesian words.",
+  "version": "1.0.2",
+  "description": "A fast JavaScript/TypeScript library to convert numbers into Indonesian words.",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -16,6 +16,11 @@
     "word"
   ],
   "author": "I Putu Saputrayana",
+  "homepage": "https://github.com/iyansr/angka-terbilang#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyansr/angka-terbilang.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.2.5",
