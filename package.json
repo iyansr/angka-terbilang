@@ -1,0 +1,25 @@
+{
+  "name": "@iyansr/angka-terbilang",
+  "version": "1.0.0",
+  "description": "A JavaScript/TypeScript library to convert numbers into Indonesian words.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild index.ts --platform=node --bundle --format=esm --splitting --minify --outdir=dist"
+  },
+  "keywords": [
+    "indonesia",
+    "terbilang",
+    "bilangan",
+    "number",
+    "to",
+    "word"
+  ],
+  "author": "I Putu Saputrayana",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "esbuild": "^0.17.19",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.4"
+  }
+}
