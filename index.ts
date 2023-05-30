@@ -1,4 +1,4 @@
-function numberToWords(number: number): string {
+export default function numberToWords(number: number): string {
   const units = [
     '',
     'satu',
@@ -106,5 +106,3 @@ function numberToWords(number: number): string {
 
   return result.trim()
 }
-
-export default numberToWords

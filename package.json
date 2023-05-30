@@ -1,11 +1,11 @@
 {
   "name": "@iyansr/angka-terbilang",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A fast JavaScript/TypeScript library to convert numbers into Indonesian words.",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "esbuild index.ts --platform=node --bundle --format=esm --splitting --minify --outdir=dist"
+    "build": "esbuild index.ts --platform=node --bundle --format=cjs --minify --outdir=dist"
   },
   "keywords": [
     "indonesia",
